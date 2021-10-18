@@ -31,7 +31,7 @@ val sourcesJar by tasks.creating(Jar::class) {
     from(sourceSets.getByName("main").allSource)
 }
 
-val myArtifactId: String = rootProject.childProjects["core"]!!.name
+val myArtifactId: String = "core"
 
 val myArtifactGroup: String = project.group.toString()
 

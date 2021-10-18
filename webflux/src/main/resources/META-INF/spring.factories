@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+io.uvera.helmet.webflux.configuration.HelmetWebfluxAutoConfiguration

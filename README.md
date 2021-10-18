@@ -12,7 +12,37 @@ Add `https://jitpack.to` to your build tool maven repositories.
 
 More info at [ reactive helmet jitpack io repository ](https://jitpack.io/#uvera/helmet-reactive-spring-boot-starter)
 
-Add `com.github.uvera:helmet-reactive-spring-boot-starter` to your dependencies.
+Add `com.github.uvera.helmet-spring-boot-starter` to your dependencies.
+
+### Maven
+
+```xml
+
+<project>
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <dependecies>
+        <dependency>
+            <groupId>com.github.uvera.helmet-spring-boot-starter</groupId>
+            <artifactId>mvc</artifactId>
+            <version>VERSION</version>
+        </dependency>
+    </dependecies>
+</project>
+```
+
+### Gradle
+
+```kotlin
+dependencies {
+    implementation("com.github.uvera.helmet-spring-boot-starter:webflux:VERSION")
+}
+```
 
 Enable following configuration properties
 

@@ -1,3 +1,3 @@
 rootProject.name = "helmet-spring-boot-starter"
 
-include("core", "webflux")
+include("core", "webflux", "mvc")

@@ -12,6 +12,7 @@ allprojects {
     version = "0.1.0"
     tasks.withType<JavaCompile> {
         sourceCompatibility = "11"
+        targetCompatibility = "11"
     }
     tasks.withType<KotlinCompile> {
         kotlinOptions {

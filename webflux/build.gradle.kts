@@ -15,6 +15,9 @@ dependencies {
     implementation(project(":core"))
 }
 
+java.sourceCompatibility = JavaVersion.VERSION_11
+java.targetCompatibility = JavaVersion.VERSION_11
+
 tasks.bootJar {
     enabled = false
 }

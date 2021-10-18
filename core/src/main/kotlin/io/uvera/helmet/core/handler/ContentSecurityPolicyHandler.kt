@@ -37,7 +37,10 @@ class ContentSecurityPolicyHandler(props: HelmetProperties) : HelmetHandler {
         if (props.contentSecurityPolicy.reportOnly) "Content-Security-Policy-Report-Only"
         else "Content-Security-Policy"
 
-    private val dashifyRegex: Regex = "[A-Z]".toRegex()
+
+    companion object {
+        private val dashifyRegex: Regex = Regex("[A-Z]")
+    }
 
     private fun String.dashify() = this.replace(dashifyRegex) {
         "-${it.value.lowercase()}"

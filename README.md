@@ -29,7 +29,7 @@ Add `com.github.uvera.helmet-spring-boot-starter` to your dependencies.
     <dependecies>
         <dependency>
             <groupId>com.github.uvera.helmet-spring-boot-starter</groupId>
-            <artifactId>mvc</artifactId>
+            <artifactId>VARIANT (mvc|webflux)</artifactId>
             <version>VERSION</version>
         </dependency>
     </dependecies>
@@ -40,7 +40,7 @@ Add `com.github.uvera.helmet-spring-boot-starter` to your dependencies.
 
 ```kotlin
 dependencies {
-    implementation("com.github.uvera.helmet-spring-boot-starter:webflux:VERSION")
+    implementation("com.github.uvera.helmet-spring-boot-starter:VARIANT (mvc|webflux):VERSION")
 }
 ```
 

@@ -9,7 +9,7 @@ plugins {
 
 allprojects {
     group = "io.uvera"
-    version = "0.1.0"
+    version = "0.1.1"
     tasks.withType<JavaCompile> {
         sourceCompatibility = "11"
         targetCompatibility = "11"

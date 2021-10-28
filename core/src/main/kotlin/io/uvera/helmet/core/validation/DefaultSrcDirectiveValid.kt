@@ -25,11 +25,12 @@ class DefaultSrcDirectiveValidator :
     override fun isValid(value: CSPDirectives?, ctx: ConstraintValidatorContext): Boolean {
         if (value == null) return true
         value["default-src"]?.let {
-            if (it.isEmpty())
+            if (it.isEmpty()) {
                 ctx.disableDefaultConstraintViolation()
-            ctx.buildConstraintViolationWithTemplate("CSP: 'default-src' directive value is empty")
-                .addConstraintViolation()
-            return false
+                ctx.buildConstraintViolationWithTemplate("CSP: 'default-src' directive value is empty")
+                    .addConstraintViolation()
+                return false
+            }
         }
         return true
     }

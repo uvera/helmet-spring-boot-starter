@@ -10,7 +10,7 @@ This is a 1:1 copy of [ Helmet.js ]( https://raw.githubusercontent.com/helmetjs/
 
 Add `https://jitpack.to` to your build tool maven repositories.
 
-More info at [ reactive helmet jitpack io repository ](https://jitpack.io/#uvera/helmet-reactive-spring-boot-starter)
+More info at [ helmet jitpack io repository ](https://jitpack.io/#uvera/helmet-spring-boot-starter)
 
 Add `com.github.uvera.helmet-spring-boot-starter` to your dependencies.
 

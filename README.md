@@ -4,7 +4,7 @@
 
 Helmet secures your spring Webflux or MVC app by setting various HTTP headers.
 
-This is a 1:1 copy of [ Helmet.js ]( https://raw.githubusercontent.com/helmetjs/helmet)
+This is a 1:1 copy of [ Helmet.js ]( https://github.com/helmetjs/helmet)
 
 ## Quick start
 
